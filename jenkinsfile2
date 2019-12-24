@@ -7,7 +7,7 @@ stage('Build')
 {
  steps{
  echo "Build the code...."
- sh "export PATH=$MVN_CMD_DIR:$PATH:opt/bin && mvn clean test"
+ sh "mvn clean"
  
  }
  }
